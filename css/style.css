@@ -1,0 +1,173 @@
+/* ZERA CONFIGURAÇÕES PADRÃO */
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font: 14px "Open Sans", Verdana, Tahoma;
+}
+/*HEADER*/
+header{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	z-index: 101;
+}
+.header{
+	
+	background: url(images/self_header.jpg);
+}
+
+/*NAV*/
+nav{
+	float: right;
+	background: #ED7A02;
+	width: 100%;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+}
+
+nav ul li a{
+	font: 24px Anton, Verdana, Tahoma;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+	transition: all 0.5s;
+}
+
+nav ul li a:hover{
+	background: #fff;
+	color:#ED7A02;
+	transform: scale(1.1);
+}
+
+/*BODY*/
+body{
+	margin-top: 50px;
+}
+
+h1{
+	font: 24px Anton, Verdana, Tahoma;
+	color: #ED7A02;
+	margin:10px;
+}
+
+h2{
+	font: 18px Anton, Verdana, Tahoma;
+	color: #ED7A02;
+	margin:10px;
+}
+
+p{
+	margin: 10px;
+}
+
+label{
+	display: none;
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	background: url(../images/footer.png);
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+footer p{
+	color: #fff;
+	margin: 10px;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+	margin: 10px;
+	transition:all 0.5s;
+}
+
+footer a:hover{
+	color: #ED7A02;
+}
+
+/* CONTROLE CSS CLASSES */
+.conteudo{
+	width: 960px;
+	margin: auto;
+}
+
+.clear{
+	clear: both;
+}
+
+.img{
+	width: 100%;
+}
+
+.proximo, .anterior{
+	position: relative;
+	z-index: 101;
+	margin-top: -350px;
+	text-decoration: none;
+	opacity: 0.3;
+	transitio: all 0.5s;
+}
+
+.proximo:hover, .anterior:hover{
+	opacity: 1;
+}
+
+.proximo{
+	right: 30px;
+	float: right;
+}
+
+.anterior{
+	left: 30px;
+	float: left;
+}
+
+.lanche{
+	width: 300px;
+	min-height: 461px;
+	float: left;
+	text-align: center;
+}
+
+.lanche a{
+	color: #CCC;
+	text-decoration: none;
+}
+
+.box{
+	border: 1px solid #ED7A02;
+	width: 100%;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+}
+
+.btn{
+	font: 18px Anton, Verdana, Tahoma;
+	float: right;
+	background: #ED7A02;
+	color: #000;
+	padding: 10px;
+}
+
+.btn:hover{
+	background: #FF8000;
+}
+
+/* CONTROLE CSS IDS */
+#logo{
+	margin-top: -30px;
+	float: left;
+	position: relative;
+}
+
+
