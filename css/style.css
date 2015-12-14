@@ -44,7 +44,7 @@ nav ul li a:hover{
 
 /*BODY*/
 body{
-	background: #C5C6C7;
+	background: white;
 }
 
 h1{
@@ -71,27 +71,28 @@ label{
 footer{
 	width: 100%;
 	margin: auto;
-	background-image: url(../images/12620-NOFAUT.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+
+	background-image: url(../images/Header_Footer.fw.png);
+
 	text-align: center;
-	padding: 10px;
+	padding: 10px 0px;
 }
 
 footer p{
-	color: #363636;
+	color: #333;
 	margin: 10px;
+	font-weight: bold;
 }
 
 footer a{
 	text-decoration: none;
-	color: #363636;
+	color: #333;
 	margin: 10px;
 	transition:all 0.5s;
 }
 
 footer a:hover{
-	color: #6666FF;
+	color: #666;
 }
 
 /* CONTROLE CSS CLASSES */
@@ -100,9 +101,7 @@ footer a:hover{
 	height: 220px;
 	text-align: center;
 
-	background-image: url(../images/12620-NOFAUT.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url(../images/Header_Footer.fw.png);
 }
 
 .cabecalho-self{
@@ -122,7 +121,8 @@ footer a:hover{
 	padding: 10px;
 	width: 960px;
 	margin: auto;
-	box-shadow: 5px;
+	box-shadow: 0px 0px 100px #333;
+	min-height: 495px;
 }
 
 .clear{
@@ -157,8 +157,9 @@ footer a:hover{
 }
 
 .trabalho{
-	width: 300px;
-	min-height: 461px;
+	width: 80%;
+	max-height: 460px;
+	overflow: hidden;
 	//float: left;
 	display: flex;
 	text-align: center;
@@ -169,8 +170,6 @@ footer a:hover{
 	text-decoration: none;
 
 }
-
-
 
 .box{
 	border: 1px solid #6666FF;
@@ -198,4 +197,9 @@ footer a:hover{
 	position: relative;
 }
 
-
+.rodape{
+	width: 960px;
+	background-color:rgba(255,255,255,0.5); 
+	margin: auto;
+	border-radius: 10px;
+}

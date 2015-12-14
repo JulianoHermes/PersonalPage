@@ -64,11 +64,13 @@
 <div class="clear"></div>
 
 <footer>
-	<p>Desenvolvido por Juliano Gustavo Hermes - Todos os direitos reservados</p>
-	<p>nas Redes Sociais:</p>
-	<p> 
-		<a href="http://www.facebook.com/juliano-hermes" title="Facebook" class="fa fa-facebook-square fa-3x"></a>
-	</p>
+	<div class="rodape">
+		<p>Desenvolvido por Juliano Gustavo Hermes - Todos os direitos reservados</p>
+		<p>nas Redes Sociais:</p>
+		<p> 
+			<a href="http://www.facebook.com/juliano-hermes" title="Facebook" class="fa fa-facebook-square fa-3x"></a>
+		</p>
+	</div>
 </footer>
 
 </body>
