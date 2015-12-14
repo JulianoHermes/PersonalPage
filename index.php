@@ -21,21 +21,22 @@
 </head>
 <body>
 <header>
-	<div class="header">
-		<a href="index.php" title="Página Inicial" id="self">
+	<div class="cabecalho">
+		<a href="home" title="Página Inicial" id="self">
+			<img src="images/self_header.jpg" class="cabecalho-self" title="Páginal Inicial" alt="HOME">
 		</a>
 	</div>
-	<div class="conteudo">
+	<div class="cabecalho-menu">
 		<nav>
 			<ul>
 				<li>
-					<a href="sobre" title="Sobre">Sobre</a>
+					<a href="trabalho" title="Trabalhos">Trabalhos</a>
 				</li>
 				<li>
 					<a href="home" title="Home">Home</a>
 				</li>
 				<li>
-					<a href="Trabalho" title="Trabalho">Trabalho</a>
+					<a href="contato" title="Contato">Contato</a>
 				</li>
 			</ul>
 		</nav>
@@ -59,15 +60,14 @@
 	}
 ?>
 
+
 <div class="clear"></div>
 
 <footer>
 	<p>Desenvolvido por Juliano Gustavo Hermes - Todos os direitos reservados</p>
 	<p>nas Redes Sociais:</p>
 	<p> 
-		<a href="http://www.facebook.com/Tidinha" title="Facebook da Tidinha" class="fa fa-facebook-square fa-3x"></a>
-		<a href="http://www.twitter.com" title="Twitter da Tidinha" class="fa fa-twitter-square fa-3x"></a>
-		<a href="http://www.instagram.com" title="Instagram" class="fa fa-instagram fa-3x" ></a>
+		<a href="http://www.facebook.com/juliano-hermes" title="Facebook" class="fa fa-facebook-square fa-3x"></a>
 	</p>
 </footer>
 

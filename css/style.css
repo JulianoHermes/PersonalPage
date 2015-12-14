@@ -3,25 +3,22 @@
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-	font: 14px "Open Sans", Verdana, Tahoma;
+	font: 14px "Open Sans", Tahoma, Verdana;
 }
 /*HEADER*/
 header{
 	width: 100%;
 	height: 300px;
 	position: relative;
-	z-index: 101;
-}
-.header{
-	
-	background: url(images/self_header.jpg);
 }
 
 /*NAV*/
 nav{
-	float: right;
-	background: #ED7A02;
-	width: 100%;
+	padding: 25px;
+}
+
+nav ul{
+	text-align: center;
 }
 
 nav ul li{
@@ -34,32 +31,31 @@ nav ul li a{
 	color: #FFF;
 	text-decoration: none;
 	text-transform: uppercase;
-	margin: 10px;
+	margin: 30px;
 	padding: 10px;
-	float: left;
+	float: inherit;
 	transition: all 0.5s;
 }
 
 nav ul li a:hover{
 	background: #fff;
-	color:#ED7A02;
-	transform: scale(1.1);
+	color:#6666FF;
 }
 
 /*BODY*/
 body{
-	margin-top: 50px;
+	background: #C5C6C7;
 }
 
 h1{
 	font: 24px Anton, Verdana, Tahoma;
-	color: #ED7A02;
+	color: #6666FF;
 	margin:10px;
 }
 
 h2{
 	font: 18px Anton, Verdana, Tahoma;
-	color: #ED7A02;
+	color: #6666FF;
 	margin:10px;
 }
 
@@ -74,31 +70,59 @@ label{
 /*FOOTER*/
 footer{
 	width: 100%;
-	background: url(../images/footer.png);
+	margin: auto;
+	background-image: url(../images/12620-NOFAUT.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	text-align: center;
-	padding: 20px 0px 20px 0px;
+	padding: 10px;
 }
 
 footer p{
-	color: #fff;
+	color: #363636;
 	margin: 10px;
 }
 
 footer a{
 	text-decoration: none;
-	color: #fff;
+	color: #363636;
 	margin: 10px;
 	transition:all 0.5s;
 }
 
 footer a:hover{
-	color: #ED7A02;
+	color: #6666FF;
 }
 
 /* CONTROLE CSS CLASSES */
+.cabecalho{
+	width: 100%;
+	height: 220px;
+	text-align: center;
+
+	background-image: url(../images/12620-NOFAUT.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cabecalho-self{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 60px;
+}
+.cabecalho-menu{
+	background: #6666FF;
+	height: 80px;
+	width: 100%;
+}
+
 .conteudo{
+	background: whitesmoke;
+	padding: 10px;
 	width: 960px;
 	margin: auto;
+	box-shadow: 5px;
 }
 
 .clear{
@@ -132,20 +156,24 @@ footer a:hover{
 	float: left;
 }
 
-.lanche{
+.trabalho{
 	width: 300px;
 	min-height: 461px;
-	float: left;
+	//float: left;
+	display: flex;
 	text-align: center;
 }
 
-.lanche a{
+.trabalho a{
 	color: #CCC;
 	text-decoration: none;
+
 }
 
+
+
 .box{
-	border: 1px solid #ED7A02;
+	border: 1px solid #6666FF;
 	width: 100%;
 	padding: 5px;
 	margin: 10px 0px 10px 0px;
@@ -154,7 +182,7 @@ footer a:hover{
 .btn{
 	font: 18px Anton, Verdana, Tahoma;
 	float: right;
-	background: #ED7A02;
+	background: #6666FF;
 	color: #000;
 	padding: 10px;
 }

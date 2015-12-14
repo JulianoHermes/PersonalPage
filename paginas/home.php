@@ -1,4 +1,7 @@
-<h1>Olá </h1>
+
+<div class="conteudo">
+	<h1>Olá </h1>
+</div>
 <!--
 <div class="conteudo">
 	<h1>Destaques:</h1>
