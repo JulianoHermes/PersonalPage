@@ -9,6 +9,7 @@
 	
 	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -20,11 +21,17 @@
 
 </head>
 <body>
+<div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="2000" >
+    <img src="./images/background.fw.png">
+    <img src="./images/background2.fw.png">
+    <img src="./images/background3.fw.png">
+</div>
 <header>
 	<div class="cabecalho">
 		<a href="home" title="Página Inicial" id="self">
 			<img src="images/self_header.jpg" class="cabecalho-self" title="Páginal Inicial" alt="HOME">
 		</a>
+		<p>Juliano Gustavo Hermes</p>
 	</div>
 	<div class="cabecalho-menu">
 		<nav>
@@ -68,7 +75,9 @@
 		<p>Desenvolvido por Juliano Gustavo Hermes - Todos os direitos reservados</p>
 		<p>nas Redes Sociais:</p>
 		<p> 
+			<a href="mailto:j.hermes09@gmail.com" title="E-Mail" class="fa fa-envelope fa-3x"></a> 
 			<a href="http://www.facebook.com/juliano-hermes" title="Facebook" class="fa fa-facebook-square fa-3x"></a>
+			<a href="https://www.instagram.com/juliano_hermes/" title="Instagram" class="fa fa-instagram fa-3x"></a>
 		</p>
 	</div>
 </footer>
