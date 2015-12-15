@@ -78,6 +78,7 @@
 			<a href="mailto:j.hermes09@gmail.com" title="E-Mail" class="fa fa-envelope fa-3x"></a> 
 			<a href="http://www.facebook.com/juliano-hermes" title="Facebook" class="fa fa-facebook-square fa-3x"></a>
 			<a href="https://www.instagram.com/juliano_hermes/" title="Instagram" class="fa fa-instagram fa-3x"></a>
+			<a href="https://github.com/JulianoHermes" title="GitHub" class="fa fa-github-square fa-3x"></a>
 		</p>
 	</div>
 </footer>
