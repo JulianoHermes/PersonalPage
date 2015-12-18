@@ -83,7 +83,7 @@ footer{
 }
 
 footer p{
-	color: #333;
+	color: #000;
 	margin: 10px;
 	font-weight: bold;
 }
@@ -102,7 +102,17 @@ footer a:hover{
 /* CONTROLE CSS CLASSES */
 .cycle-slideshow{
 	position: fixed;
+	height: 100%;
+	width: 100%;
 }
+
+.cycle-slideshow img{
+	min-width: 100%;
+    min-height: 100%;
+	max-width: 100%;
+    max-height: 100%;
+}
+
 
 .cabecalho{
 	width: 100%;
@@ -118,7 +128,7 @@ footer a:hover{
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
-	margin: 60px 0px 0px 0px;
+	margin: 40px 0px 0px 0px;
 }
 .cabecalho-menu{
 	background: rgba(33,33,33,0.5);
@@ -142,6 +152,23 @@ footer a:hover{
 	margin: auto;
 }
 
+.conteudo-home b{
+	color: #6666FF;
+	font-size: 30px;
+}
+
+.conteudo-home{
+	//font: 23px 'Montserrat', sans-serif;
+	//font: 23px 'Lobster', cursive;
+	font-size: 23px;
+}
+	
+
+.conteudo p{
+	max-width: 700px;
+	margin: auto;
+}
+
 .conteudo iframe{
 	margin: 20px 50px 0px 50px;
 }
@@ -152,16 +179,25 @@ footer a:hover{
 
 .trabalho{
 	width: 80%;
-	max-height: 460px;
+	max-height: 210px;
 	overflow: hidden;
 	display: flex;
-	text-align: center;
+	margin: auto;
+	text-align: justify;
+}
+
+.trabalho img{
+	width: 200px;
+	height: 200px;
 }
 
 .trabalho a{
 	color: #CCC;
 	text-decoration: none;
-
+	width: 200px;
+	height: 200px;
+	margin-right: 50px;
+	margin-top: 50px;
 }
 
 .box{
@@ -188,4 +224,38 @@ footer a:hover{
 	background-color:rgba(255,255,255,0.5); 
 	margin: auto;
 	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-state:checked ~ .trabalho{
+  max-height: 100%;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Ver Mais';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Ver Menos';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
