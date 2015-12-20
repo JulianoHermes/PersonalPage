@@ -1,10 +1,11 @@
 
 <div class="conteudo">
+	<h1> Sobre Mim:</h1>
 	<p class="conteudo-home">
-		Olá, sou formado em <b>Ciência da Computação</b> e pos-graduando em <b>Web e Mobile</b>.
+		Olá, sou formado em <b>Ciência da Computação</b> e pós-graduando em <b>Web e Mobile</b>.
 	</p>
 	<p class="conteudo-home">
-		Trabalho a 4 Anos na área de <b>automação industrial</b> e tenho por <b>foco</b> iteração entre o <b>chão de fábrica</b> com os níveis mais altos da <b>gerência da produção</b>.
+		Trabalho na área de <b>automação industrial</b> e tenho por <b>foco</b> iteração entre o <b>chão de fábrica</b> com os mais altos níveis da <b>gerência da produção</b>.
 	</p>	
 </div>
 <!--

@@ -31,7 +31,8 @@
 <header>
 	<div class="cabecalho">
 		<a href="home" title="Página Inicial" id="self">
-			<img src="images/self_header.jpg" class="cabecalho-self" title="Páginal Inicial" alt="HOME">
+			<div class="cabecalho-self" title="Páginal Inicial" alt="HOME">
+			</div>
 		</a>
 		<p>Juliano Gustavo Hermes</p>
 	</div>

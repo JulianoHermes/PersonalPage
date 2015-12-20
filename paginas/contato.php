@@ -1,7 +1,7 @@
 <div class="clear"></div>
 <div class="conteudo">
 	<h1>Entre em Contato</h1>
-	<p>Para entrar em contato por favor preencha o formulario abaixo, ou entre em contato através do e-mail j.hermes09@gmail.com ou através do telefone (011) 1406</p>
+	<p>Para entrar em contato por favor preencha o formulario abaixo, ou entre em contato através do e-mail j.hermes09@gmail.com ou através do telefone (049) 8429-1853</p>
 
 	<form name="form1" method="post" action="enviar">
 		<label for="nome">
